@@ -17,6 +17,7 @@ CREATE TABLE tb_owner (
   tel varchar(100),
   address varchar(100)
 );
+
 insert into tb_pet (owner_id, name, type, fur_color, age, body_build ) values ('com.statcounter.Domainer', 'House sparrow', 'jcb', 'Turquoise', 1, 'jcb');
 insert into tb_pet (owner_id, name, type, fur_color, age, body_build ) values ('uk.co.independent.Tin', 'Mockingbird, galapagos', 'laser', 'Purple', 2, 'jcb');
 insert into tb_pet (owner_id, name, type, fur_color, age, body_build ) values ('com.sciencedaily.Tresom', 'Pale-throated three-toed sloth', 'diners-club-carte-blanche', 'Violet', 3, 'jcb');
